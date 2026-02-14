@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
-import "./globals.css";
+import '../app/global.css';
 import Navbar from "@/components/Navbar";
 
 const bricolage = Bricolage_Grotesque({
@@ -10,8 +10,8 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Converso",
-  description: "Real-time AI Teaching Platform",
+  title: "5EVEN",
+  description: "We Build not train",
 };
 
 export default function RootLayout({
